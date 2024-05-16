@@ -1,0 +1,133 @@
+/* html {
+    font-family: poppins;
+} */
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #9933cc;
+    color: #ffffff;
+    text-shadow:  2px 2px 5px #000000;
+    padding: 15px;
+}
+
+header h1{
+    margin-left: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #d7d6d6;
+    box-shadow:  2px 2px 5px #c1c0c0;
+    min-height:400px;
+}
+
+.menu > div{
+    background: #fff;
+    color: #0099cc;
+    text-align: center;
+    padding: 5px;
+    width: 25%;
+    height: 250px;
+    margin: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+h2 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0099cc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu div:nth-child(even) h2{
+    border-color: #640395;
+}
+
+.img{
+    float: right;
+    width: 50%;
+}
+.img img{
+    width: 80px;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+span{
+    font-size: 35px;
+    display: block;
+}
+
+button:hover{
+    cursor: pointer;
+    outline: 2px solid #640395;
+    outline-offset: -4px; 
+    scale: 1.06;
+}
+
+button{
+    position: absolute;
+    font-size: medium;
+    bottom: 20px;
+    left: 40px;
+    width: 80%;
+    height: 18%;
+    font-weight: bold;
+    color: #640395;
+    background-color: #0099cc;
+    border: none;
+    border-radius: 50px;
+    transition: scale 0.5s;
+}
+
+.menu div:nth-child(even){
+    color: #640395;
+}
+
+.menu div:nth-child(even) button{
+    color: #0099cc;
+    background-color: #640395;
+}
+
+.menu div:nth-child(even) button:hover{
+    outline: 2px solid #0099cc;
+}
+
+#recette p{
+    width: 50%;
+    float: left;
+}
+
+#recette .img{
+    margin-top: 20px;
+    width: 65px;
+    margin-right: 40px;
+    background-color: #fdb500; 
+    border-radius:100px;
+}
+
+#recette .img img{
+    width: 60px;
+}
+
+footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}

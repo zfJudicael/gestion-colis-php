@@ -1,0 +1,56 @@
+.form1{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.recherche{
+    background-color: dodgerblue;
+    border: 1px solid rgb(1, 130, 173);
+    border-radius: 4px;
+    color: #fefefe;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    right: 10%;
+}
+
+form{
+    text-align: left;
+    padding: 10px;
+}
+
+fieldset{
+    margin: 0 auto;
+}
+
+label{
+    font-style: oblique;
+}
+
+select{
+    margin-left: 5%;
+    padding: 10px;
+    letter-spacing: 1px;
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    background: white;
+    width: 15%;
+    cursor: pointer;
+}
+option{
+    cursor: pointer;
+}
+
+.design, .dateEnvoi{
+    display: none;
+}
+
+.dateEnvoi{
+    margin-left: 30px;
+}
+
+input[type="datetime-local"]{
+    padding: 10px;
+    border-radius: 4px;
+}

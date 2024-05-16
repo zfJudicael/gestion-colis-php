@@ -1,0 +1,20 @@
+
+form{
+    text-align: left;
+    padding: 10px;
+}
+
+fieldset{
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+label{
+    font-style: oblique;
+    margin-left: 5%;
+}
+
+/* input[type="text"]:focus{
+    outline: none;
+} */

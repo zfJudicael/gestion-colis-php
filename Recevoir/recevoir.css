@@ -1,0 +1,32 @@
+.form1{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/form{
+    text-align: left;
+    padding: 10px;
+}
+
+
+label{
+    font-style: oblique;
+    margin-left: 5%;
+}
+
+#listeEnvoyer{
+    width: 50%;
+    height: 40px;
+}
+#recevoir{
+    position: absolute;
+    right: 10%;
+}
+
+.center{
+    margin-top: 10px;
+}
+fieldset{
+    margin: 0 auto;
+}

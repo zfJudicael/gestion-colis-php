@@ -1,0 +1,39 @@
+
+fieldset{
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+label{
+    font-style: oblique;
+    margin-left: 5%;
+}
+
+#listeEnvoyer{
+    width: 20%;
+    height: 40px;
+    float: left;
+    background-color: rgb(162, 162, 3);
+    border: 1px solid  #596101;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#listeEnvoyer:hover{
+    transform: scale(1.05);
+    cursor: pointer; 
+}
+
+.vert{
+    padding:10px 20px; 
+    font-size:medium; 
+    border-radius:10px
+}
+
+.div1{
+    width: 80%;
+    text-align: left;
+    padding: 0 5%;
+}
